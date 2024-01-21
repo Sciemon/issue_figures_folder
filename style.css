@@ -1,0 +1,134 @@
+p {
+  color: black;
+  font-family: "Frutiger", sans-serif !important;
+}
+
+.iee-green {
+  color: rgb(23, 156, 125);
+  font-weight: bold;
+}
+
+.iee-orange {
+  color: rgb(245, 130, 32);
+}
+
+.iee-white {
+  color: white;
+}
+
+.hl-orange {
+  background-color: rgb(245, 130, 32);
+  color: white;
+}
+
+.hl-grey {
+  background-color:rgb(166, 187, 200);
+  color: white;
+}
+
+h1 {
+  color: rgb(0, 91, 127) !important;
+}
+
+h2 {
+  color: rgb(0, 91, 127) !important;
+  font-family: "Frutiger", sans-serif !important;
+  top: 0px !important;
+}
+
+h2:after {
+  content: " ";
+  display: block;
+  background: rgb(23, 156, 125);
+  height: 7px;
+  width: 5%;
+}
+
+.reveal .slide-logo {
+  height: 10% !important;
+  max-height: unset !important;
+  max-width: unset !important;
+  object-fit: contain !important;
+}
+
+hr {
+  height: 1px; 
+  background-color: rgb(166, 187, 200);
+  border: 0;
+}
+
+hr.frontpage {
+  width: 10%; 
+  height: 1%; 
+  text-align:left; 
+  margin-left:0;
+  background-color: white;
+  border: 0;
+}
+
+.reveal .quarto-title-block .quarto-title-authors .quarto-title-author .quarto-title-author-name {
+  margin-bottom: .1rem;
+  color: white;
+  font-size: 1em;
+}
+
+.reveal .quarto-title-block .quarto-title-authors .quarto-title-author .quarto-title-affiliation {
+  font-size: 1em;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.reveal h1.title {
+  text-shadow: var(--r-heading1-text-shadow);
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.reveal h1.title:after {
+  content: " ";
+  display: block;
+  background: white;
+  height: 4px;
+  width: 50%;
+  margin: auto;
+}
+
+.reveal a {
+  color: rgb(0, 91, 127);
+}
+
+.date {
+  color: white !important;
+}
+
+.caption{
+   text-align: center;
+}
+
+figcaption {
+  margin: auto;
+  text-align: center;
+}
+
+.reveal .slide-number > a[href*='title-slide'] {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border: 1px solid;
+}
+
+td {
+  border: 1px solid;
+}
+
+thead, th {
+  background-color: rgb(23, 156, 125);
+  color: white;
+  border: 1px solid;
+}
+
+
+

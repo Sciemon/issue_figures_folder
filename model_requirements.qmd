@@ -1,0 +1,28 @@
+---
+title: "Issue Figures Folder"
+author: 
+  - name: "Simon"
+date: today
+title-block-banner: true
+toc: true
+number-sections: true
+highlight-style: pygments
+format: 
+  pdf: 
+    geometry: 
+      - top=30mm
+      - left=20mm
+  html: 
+    code-fold: true
+    html-math-method: katex
+    default-image-extension: svg
+    css: style.css
+  docx: default
+---
+
+
+# Example Figure
+
+![Example FACTS droop control.](./figs/SVS_droop.svg){#fig-SVS-droop}
+
+In a steady state power flow analysis, it is most common and generally sufficient for entities to use constant PQ loads.
